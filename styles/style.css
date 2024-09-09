@@ -4,11 +4,59 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(255, 250, 237);
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .container{
     min-height: 100dvh;
     width: 100%;
+    background-color: rgba(255, 250, 237, 0.4);
 }
 
 .pageTitle{
+    padding-top: 50px;
+    text-align: center;
+}
 
+.innerContainer{
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.innerTitle{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.resources{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resource{
+    margin: 10px 0;
+}
+
+.resourceLink{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resourceLink img{
+    width: 50px;
+    height: 50px;
+}
+
+.resourceLink p{
+    text-align: center;
 }
