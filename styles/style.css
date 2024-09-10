@@ -9,6 +9,7 @@ body{
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: bottom;
 }
 
 .container{
@@ -41,7 +42,7 @@ body{
 }
 
 .resource{
-    margin: 10px 0;
+    margin: 10px 25px;
 }
 
 .resourceLink{
