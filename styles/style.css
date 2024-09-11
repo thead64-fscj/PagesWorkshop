@@ -23,7 +23,7 @@ body{
     text-align: center;
 }
 
-.innerContainer{
+.resourceContainer{
     margin: 30px auto;
     max-width: 800px;
 }
@@ -43,6 +43,11 @@ body{
 
 .resource{
     margin: 10px 25px;
+    transition: .3s ease-in-out;
+}
+
+.resource:hover{
+    transform: scale(1.2);
 }
 
 .resourceLink{
@@ -61,4 +66,33 @@ body{
 
 .resourceLink p{
     text-align: center;
+}
+
+
+.projectsContainer{
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project{
+    max-width: 300px;
+}
+
+.projectTitle{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.projectLink{
+    max-width: 250px;
+}
+
+.projectImage{
+    width: 100%;
 }
